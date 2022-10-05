@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================================= 
+  Base Styles
+==================================== */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body{
+    background-color: rgba(255, 234, 0, 0.776);
+}
+
+.logo{
+    
+    width: 70px !important;
+    height: 70px !important;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 4%;
+}
+.logo{
+    display: flex;
+    width: 4vw;
+    height: 8vh;
+    cursor: pointer;
+
+}
+
+.insta{
+    width: 20px;
+    height: 20px;
+}
+
+li,.atag {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li .atag{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li .atag:hover{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+p {
+    color: white !important;
+}
+.read__more{
+    color: white !important;
+}
+
+.atag{
+    transition: 0.7s ease;
+
+}
+
+#rejectCookies{
+    border: solid 3px white;
+    
+}
+
+#rejectCookies:hover{
+    background-color: red;
+}
+
+.atag:hover{
+    background-color: black;
+    color: yellow;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1;
+    overflow: auto;
+}
+.footer-inner{
+    background-color: black;
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px ) {
+    .footer-inner{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding: 1rem;
+    }
+
+
+    .atag:hover{
+
+
+        
+        color: black !important;
+        
+
+    }
+
+
+    li,.atag {
+        text-decoration: none;
+        list-style-type: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .nav-top{
+        display: none;
+    }
+
+    .logo{
+        
+       margin: auto;
+    }
+    .in{
+        display: none;
+    }
+    .fa{
+        display: none;
+    }
+    .li{
+        display: none;
+    }
+
+    li{
+        padding: 10px !important;
+        border: 2px solid white;
+        border-radius: 8px;
+    }
+
+   
+}
+
