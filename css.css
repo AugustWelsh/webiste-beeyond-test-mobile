@@ -128,9 +128,35 @@ p {
 
 
         
-        color: black !important;
+        color: rgb(0, 0, 0) !important;
+        background-color: white;
+        padding: 10px;
         
 
+    }
+
+    li:hover{
+
+
+        
+        color: rgb(0, 0, 0) !important;
+        background-color: white;
+        padding: 10px;
+        
+
+        
+
+    }
+
+    .atag{
+        margin: 10px;
+        border: 2px solid white;
+        padding:10px;
+        border-radius: 8px;
+    }
+    .atag{
+        transform: none;
+        transition: none;
     }
 
 
@@ -138,6 +164,7 @@ p {
         text-decoration: none;
         list-style-type: none;
         color: rgb(255, 255, 255);
+        
     }
 
     .nav-top{
@@ -159,7 +186,8 @@ p {
     }
 
     li{
-        padding: 10px !important;
+        
+        padding: 5px !important;
         border: 2px solid white;
         border-radius: 8px;
     }
